@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
 
 <head>
@@ -10,10 +10,78 @@
 </head>
 
 <body>
-  <div id="app">
-    <h1 class="text-3xl bg-green-600 font-bold underline ">Hello</h1>
+  <div class="bg-black text-white">
+    <div class="container mx-auto flex flex-row">
+
+      <div class="first w-full">
+        <div class="logo invert">
+          <svg viewBox="0 0 24 24" aria-hidden="true"
+            class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+              </path>
+            </g>
+          </svg>
+        </div>
+        <div class="sidebar flex justify-end">
+          <ul class="flex flex-col space-y-6 w-1/2">
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="home"></i>
+              Home
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="search"></i>
+              Explore
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="bell"></i>
+              Notifications
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="mail"></i>
+              Messages
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="slash-square"></i>
+              Grok
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="layout-list"></i>
+              List
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="bookmark"></i>
+              Bookmark
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="users"></i>
+              Communities
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="user-round"></i>
+              Profile
+            </li>
+            <li class="flex justify-start items-center gap-5">
+              <i data-lucide="grip"></i>
+              More
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="second border-x border-gray-700 w-full">Green</div>
+      <div class="third w-full">Blue</div>
+    </div>
   </div>
-  <!-- <script type="module" src="./scripts/main.js"></script> -->
+
+  <!-- <script src="./scripts/main.js"></script> -->
+  <!-- Lucide Icons Production version -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
 </body>
 
 </html>
