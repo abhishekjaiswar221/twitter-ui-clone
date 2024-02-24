@@ -5,73 +5,95 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Home / X</title>
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-  <div class="bg-black text-white">
+  <div class="bg-black text-white h-screen">
     <div class="container mx-auto flex flex-row">
 
-      <div class="first w-full">
-        <div class="logo invert">
-          <svg viewBox="0 0 24 24" aria-hidden="true"
-            class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-            <g>
-              <path
-                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-              </path>
-            </g>
-          </svg>
-        </div>
-        <div class="sidebar flex justify-end">
-          <ul class="flex flex-col space-y-6 w-1/2">
-            <li class="flex justify-start items-center gap-5">
+      <div class="first w-[57%]">
+        <div class="sidebar flex justify-center">
+          <ul class="flex flex-col text-xl space-y-2 w-10/12">
+            <li class="logo invert pt-3 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"
+                class="w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                <g>
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                  </path>
+                </g>
+              </svg>
+            </li>
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="home"></i>
               Home
             </li>
-            <li class="flex justify-start items-center gap-5">
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="search"></i>
               Explore
             </li>
-            <li class="flex justify-start items-center gap-5">
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="bell"></i>
               Notifications
             </li>
-            <li class="flex justify-start items-center gap-5">
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="mail"></i>
               Messages
             </li>
-            <li class="flex justify-start items-center gap-5">
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="slash-square"></i>
               Grok
             </li>
-            <li class="flex justify-start items-center gap-5">
-              <i data-lucide="layout-list"></i>
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+              <i data-lucide="clipboard-list"></i>
               List
             </li>
-            <li class="flex justify-start items-center gap-5">
+            <!-- <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="bookmark"></i>
               Bookmark
-            </li>
-            <li class="flex justify-start items-center gap-5">
+            </li> -->
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="users"></i>
               Communities
             </li>
-            <li class="flex justify-start items-center gap-5">
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="user-round"></i>
               Profile
             </li>
-            <li class="flex justify-start items-center gap-5">
+            <li
+              class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
               <i data-lucide="grip"></i>
               More
             </li>
+            <div class="post-btn">
+              <input class="bg-[#1d9bf0] w-56 py-3 font-medium rounded-full" type="button" value="Post">
+            </div>
           </ul>
         </div>
       </div>
 
       <div class="second border-x border-gray-700 w-full">Green</div>
-      <div class="third w-full">Blue</div>
+
+      <div class="third w-[71%] flex justify-center">
+        <div class="w-11/12">
+          <div class="search py-1 relative">
+            <i data-lucide="search" class="absolute top-3 start-5 w-5 text-neutral-500"></i>
+            <input class="rounded-full placeholder:ps-12 bg-neutral-900 py-2 w-full" type="text" name="search"
+              id="search" placeholder="Search">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
