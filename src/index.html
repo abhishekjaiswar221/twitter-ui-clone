@@ -13,7 +13,7 @@
   <div class="bg-black text-white">
     <div class="container mx-auto flex flex-row h-screen">
 
-      <div class="first w-[21.5%] flex justify-center">
+      <div class="first w-[22%] flex justify-center">
         <div class="sidebar flex flex-col w-[90%] gap-7">
 
           <div class="logo invert pt-3 px-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer w-fit">
@@ -80,7 +80,7 @@
                 More
               </li>
               <div class="post-btn px-2">
-                <input class="bg-[#1d9bf0] w-full py-3 font-medium rounded-full" type="button" value="Post">
+                <button class="bg-[#1d9bf0] w-full py-3 font-medium rounded-full" type="submit">Post</button>
               </div>
             </ul>
           </nav>
@@ -98,32 +98,72 @@
         </div>
       </div>
 
-      <div class="second border-x border-[#2f3336] w-[46.5%]">
+      <div class="second border-x border-[#2f3336] w-[47%]">
         <div class="top-header flex items-center h-14 border-b border-[#2f3336] relative">
+          <div class="bg-[#1d9bf0] h-1 w-14 rounded-full absolute bottom-0 left-[105px]"></div>
           <div class="for-you flex w-1/2  justify-center">
             <h1>For You</h1>
           </div>
-          <div class="bg-[#1d9bf0] h-1 w-12 rounded-full absolute top-[51px]"></div>
           <div class="following flex w-1/2 justify-center">
             <h1>Following</h1>
           </div>
-          <i class="mx-4" data-lucide="settings"></i>
+          <div>
+            <i class="mx-4 w-[18px]" data-lucide="settings"></i>
+          </div>
+        </div>
+
+        <div class="what-is-hapenning flex flex-row p-3 border-b border-[#2f3336]">
+          <div class="p-1 h-fit w-14">
+            <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
+          </div>
+          <div class="w-full flex flex-col gap-3">
+            <div>
+              <input class="bg-black w-full h-11 outline-none text-xl text-white" type="text"
+                placeholder="What is happening?!">
+            </div>
+            <div class="flex flex-col gap-4">
+              <div
+                class="flex flex-row gap-1 text-sm items-center font-medium text-[#1d9bf0] border-b pb-[6px] border-[#2f3336]">
+                <i class="w-[15px]" data-lucide="earth"></i>
+                <h1>Everyone can reply</h1>
+              </div>
+              <div class="flex flex-row justify-between">
+                <div class="flex flex-row gap-3">
+                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="image"></i>
+                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="images"></i>
+                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="layout-list"></i>
+                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="smile"></i>
+                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="calendar-clock"></i>
+                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="map-pin"></i>
+                </div>
+                <div>
+                  <button class="bg-[#1d9bf0] py-[6px] px-5 font-semibold rounded-full" type="submit">Post</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-posts flex justify-center p-3 border-b border-[#2f3336] items-center">
+          <h1 class="text-[#1d9bf0]">
+            Show 500 Post
+          </h1>
         </div>
       </div>
 
-      <div class="third w-[32%] flex justify-center">
+      <div class="third w-[31%] flex justify-center">
         <div class="w-[85%] flex flex-col gap-4">
           <div class="search py-1 relative">
             <i data-lucide="search" class="absolute top-3 start-5 w-5 text-[#71767b]"></i>
             <label for="search" aria-disabled="true"></label>
-            <input class="rounded-full placeholder:ps-12 bg-[#16181c] py-2 w-full text-white" type="text" name="search"
+            <input class="rounded-full outline-none ps-12 bg-[#16181c] py-2 w-full text-white" type="text" name="search"
               id="search" placeholder="Search">
           </div>
 
           <div class="subscribe rounded-2xl p-4 bg-[#16181c] space-y-2">
             <h1 class="text-xl font-bold">Subscribe to Premium</h1>
             <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-            <button class="bg-[#1d9bf0] py-2 px-5 rounded-full" type="submit">Subscribe</button>
+            <button class="bg-[#1d9bf0] py-2 px-5 font-semibold rounded-full" type="submit">Subscribe</button>
           </div>
 
           <div class="whats-happening rounded-2xl py-4 bg-[#16181c]">
@@ -162,7 +202,7 @@
                 <h1 class="text-lg">Abhishek Jaiswar</h1>
                 <p class="text-sm">@devabhishek_jai</p>
               </div>
-              <button class="bg-white text-black font-medium py-1 px-4 rounded-full" type="button">Follow</button>
+              <button class="bg-white text-black font-medium py-1 px-4 rounded-full" type="submit">Follow</button>
             </div>
             <div
               class="follow-profile1 cursor-pointer flex flex-row justify-start items-center gap-[17px] hover:bg-neutral-800 py-2 px-4">
@@ -171,7 +211,7 @@
                 <h1 class="text-lg">Abhishek Jaiswar</h1>
                 <p class="text-sm">@devabhishek_jai</p>
               </div>
-              <button class="bg-white text-black font-medium py-1 px-4 rounded-full" type="button">Follow</button>
+              <button class="bg-white text-black font-medium py-1 px-4 rounded-full" type="submit">Follow</button>
             </div>
             <div class="px-4">
               <button class="text-[#1d9bf0]" type="button">Show more</button>
