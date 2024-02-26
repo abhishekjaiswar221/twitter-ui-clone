@@ -6,6 +6,7 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home / X</title>
+  <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 
@@ -13,17 +14,15 @@
   <div class="bg-black text-white">
     <div class="container mx-auto flex flex-row h-screen">
 
-      <div class="first w-[22%] flex justify-center">
-        <div class="sidebar flex flex-col w-[90%] gap-7">
+      <div class="first w-[22%] flex justify-center items-start">
+        <div class="sidebar flex flex-col w-[90%] gap-2">
 
-          <div class="logo invert pt-3 px-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer w-fit">
-            <svg viewBox="0 0 24 24" aria-hidden="true"
-              class="w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-              <g>
-                <path
-                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                </path>
-              </g>
+          <div class="logo p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer w-fit">
+            <svg class="w-[34px] h-[34px]" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+              viewBox="0 0 32 32" style="fill:#FFFFFF;">
+              <path
+                d="M 4.0175781 4 L 13.091797 17.609375 L 4.3359375 28 L 6.9511719 28 L 14.246094 19.34375 L 20.017578 28 L 20.552734 28 L 28.015625 28 L 18.712891 14.042969 L 27.175781 4 L 24.560547 4 L 17.558594 12.310547 L 12.017578 4 L 4.0175781 4 z M 7.7558594 6 L 10.947266 6 L 24.279297 26 L 21.087891 26 L 7.7558594 6 z">
+              </path>
             </svg>
           </div>
 
@@ -61,13 +60,18 @@
               </li>
               <li
                 class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="x"></i>
-                Premium
+                <i data-lucide="users"></i>
+                Communities
               </li>
               <li
                 class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="users"></i>
-                Communities
+                <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                  viewBox="0 0 32 32" style="fill:#FFFFFF;">
+                  <path
+                    d="M 4.0175781 4 L 13.091797 17.609375 L 4.3359375 28 L 6.9511719 28 L 14.246094 19.34375 L 20.017578 28 L 20.552734 28 L 28.015625 28 L 18.712891 14.042969 L 27.175781 4 L 24.560547 4 L 17.558594 12.310547 L 12.017578 4 L 4.0175781 4 z M 7.7558594 6 L 10.947266 6 L 24.279297 26 L 21.087891 26 L 7.7558594 6 z">
+                  </path>
+                </svg>
+                Premium
               </li>
               <li
                 class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
@@ -76,7 +80,7 @@
               </li>
               <li
                 class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="grip"></i>
+                <i data-lucide="more-horizontal"></i>
                 More
               </li>
               <div class="post-btn px-2">
@@ -86,19 +90,20 @@
           </nav>
 
           <div
-            class="users-profile flex flex-row justify-start items-center gap-[17px] hover:bg-neutral-900 hover:rounded-full px-2">
+            class="users-profile flex flex-row justify-start items-center gap-[17px] hover:bg-neutral-900 hover:rounded-full px-2 mt-8">
             <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
             <div>
               <h1 class="text-lg">Abhishek Jaiswar</h1>
               <p class="text-sm">@devabhishek_jai</p>
             </div>
-            <i data-lucide="grip"></i>
+            <i data-lucide="more-horizontal"></i>
           </div>
 
         </div>
       </div>
 
       <div class="second border-x border-[#2f3336] w-[47%]">
+
         <div class="top-header flex items-center h-14 border-b border-[#2f3336] relative">
           <div class="bg-[#1d9bf0] h-1 w-14 rounded-full absolute bottom-0 left-[105px]"></div>
           <div class="for-you flex w-1/2  justify-center">
@@ -149,10 +154,37 @@
             Show 500 Post
           </h1>
         </div>
+
+        <div class="post-section">
+          <div class="post flex">
+            <div class="profile-picture">
+              <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
+            </div>
+            <div class="profile-content">
+              <div class="flex">
+                <h1>Piyush Goyal @PiyushGoyal · 19s</h1>
+                <i data-lucide="more-horizontal"></i>
+              </div>
+              <div class="tweet">
+                आज हम जो करते हैं वो Best और Biggest करते हैं।
+              </div>
+              <div class="tweet-reactions flex">
+                <i data-lucide="message-square"></i>
+                <i data-lucide="repeat-2"></i>
+                <i data-lucide="heart"></i>
+                <i data-lucide="bar-chart-2"></i>
+                <i data-lucide="bookmark"></i>
+                <i data-lucide="upload"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div class="third w-[31%] flex justify-center">
         <div class="w-[85%] flex flex-col gap-4">
+
           <div class="search py-1 relative">
             <i data-lucide="search" class="absolute top-3 start-5 w-5 text-[#71767b]"></i>
             <label for="search" aria-disabled="true"></label>
@@ -217,6 +249,7 @@
               <button class="text-[#1d9bf0]" type="button">Show more</button>
             </div>
           </div>
+
         </div>
       </div>
     </div>
