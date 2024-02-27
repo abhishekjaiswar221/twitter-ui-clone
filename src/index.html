@@ -3,21 +3,26 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home / X</title>
+  <!-- Twitter Favicon -->
   <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+
+  <!-- External Styles -->
   <link rel="stylesheet" href="./styles/main.css">
+
 </head>
 
 <body>
-  <div class="bg-black text-white">
-    <div class="container mx-auto flex flex-row h-screen">
+  <div class="text-white bg-black">
+    <!-- Page Container -->
+    <div class="container flex flex-row mx-auto">
 
+      <!-- First Section -->
       <div class="first w-[22%] flex justify-center items-start">
         <div class="sidebar flex flex-col w-[90%] gap-2">
-
-          <div class="logo p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer w-fit">
+          <!-- Twitter[X] Logo -->
+          <div class="p-2 logo hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer w-fit">
             <svg class="w-[34px] h-[34px]" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
               viewBox="0 0 32 32" style="fill:#FFFFFF;">
               <path
@@ -25,47 +30,49 @@
               </path>
             </svg>
           </div>
+          <!-- Twitter[X] Logo -->
 
+          <!-- Navigation Sidebar -->
           <nav class="navigation-menu">
-            <ul class="flex flex-col text-xl space-y-2">
+            <ul class="flex flex-col space-y-2 text-xl">
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="home"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="home"></i>
                 Home
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="search"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="search"></i>
                 Explore
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="bell"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="bell"></i>
                 Notifications
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="mail"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="mail"></i>
                 Messages
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="slash-square"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="slash-square"></i>
                 Grok
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="clipboard"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="clipboard"></i>
                 List
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="users"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="users"></i>
                 Communities
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <svg class="w-[27px] h-[27px]" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
                   viewBox="0 0 32 32" style="fill:#FFFFFF;">
                   <path
                     d="M 4.0175781 4 L 13.091797 17.609375 L 4.3359375 28 L 6.9511719 28 L 14.246094 19.34375 L 20.017578 28 L 20.552734 28 L 28.015625 28 L 18.712891 14.042969 L 27.175781 4 L 24.560547 4 L 17.558594 12.310547 L 12.017578 4 L 4.0175781 4 z M 7.7558594 6 L 10.947266 6 L 24.279297 26 L 21.087891 26 L 7.7558594 6 z">
@@ -74,72 +81,77 @@
                 Premium
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="user-round"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="user-round"></i>
                 Profile
               </li>
               <li
-                class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
-                <i data-lucide="more-horizontal"></i>
+                class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
+                <i class="h-[27px] w-[27px]" data-lucide="more-horizontal"></i>
                 More
               </li>
-              <div class="post-btn px-2">
+              <div class="px-2 post-btn">
                 <button class="bg-[#1d9bf0] w-full py-3 font-medium rounded-full" type="submit">Post</button>
               </div>
             </ul>
           </nav>
+          <!-- Navigation Sidebar -->
 
+          <!-- User Profile Details -->
           <div
-            class="users-profile flex flex-row justify-start items-center gap-[17px] hover:bg-neutral-900 hover:rounded-full px-2 mt-8">
-            <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
+            class="users-profile flex flex-row justify-start items-center gap-[17px] cursor-pointer hover:bg-neutral-900 hover:rounded-full p-[10px] mt-6">
+            <img class="w-10 h-10 rounded-full" src="./assets/profilephoto.png" alt="Profile Photo">
             <div>
               <h1 class="text-lg">Abhishek Jaiswar</h1>
               <p class="text-sm">@devabhishek_jai</p>
             </div>
-            <i data-lucide="more-horizontal"></i>
+            <i class="h-[18px] w-[18px]" data-lucide="more-horizontal"></i>
           </div>
-
+          <!-- User Profile Details -->
         </div>
       </div>
 
+      <!-- Section Two -->
       <div class="second border-x border-[#2f3336] w-[47%]">
-
+        <!-- Follower and Following Header -->
         <div class="top-header flex items-center h-14 border-b border-[#2f3336] relative">
           <div class="bg-[#1d9bf0] h-1 w-14 rounded-full absolute bottom-0 left-[105px]"></div>
-          <div class="for-you flex w-1/2  justify-center">
+          <div class="flex justify-center w-1/2 cursor-pointer for-you">
             <h1>For You</h1>
           </div>
-          <div class="following flex w-1/2 justify-center">
+          <div class="flex justify-center w-1/2 cursor-pointer following">
             <h1>Following</h1>
           </div>
           <div>
-            <i class="mx-4 w-[18px]" data-lucide="settings"></i>
+            <i class="mx-4 w-[18px] h-[18px] cursor-pointer" data-lucide="settings"></i>
           </div>
         </div>
+        <!-- Follower and Following Header -->
 
+        <!-- Write Tweet Input Box Section -->
         <div class="what-is-hapenning flex flex-row p-3 border-b border-[#2f3336]">
-          <div class="p-1 h-fit w-14">
-            <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
+          <div class="p-1 cursor-pointer h-fit w-14">
+            <img class="w-10 h-10 rounded-full" src="./assets/profilephoto.png" alt="Profile Photo">
           </div>
-          <div class="w-full flex flex-col gap-3">
+          <div class="flex flex-col w-full gap-3">
             <div>
-              <input class="bg-black w-full h-11 outline-none text-xl text-white" type="text"
+              <input class="w-full text-xl text-white bg-black outline-none h-11" type="text"
                 placeholder="What is happening?!">
             </div>
             <div class="flex flex-col gap-4">
               <div
-                class="flex flex-row gap-1 text-sm items-center font-medium text-[#1d9bf0] border-b pb-[6px] border-[#2f3336]">
+                class="flex flex-row gap-1 text-sm items-center font-medium text-[#1d9bf0] border-b pb-[6px] border-[#2f3336]  cursor-pointer">
                 <i class="w-[15px]" data-lucide="earth"></i>
                 <h1>Everyone can reply</h1>
               </div>
               <div class="flex flex-row justify-between">
-                <div class="flex flex-row gap-3">
-                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="image"></i>
-                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="images"></i>
-                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="layout-list"></i>
-                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="smile"></i>
-                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="calendar-clock"></i>
-                  <i class="text-[#1d9bf0] w-[18px]" data-lucide="map-pin"></i>
+                <div class="flex flex-row gap-3 cursor-pointer">
+                  <i class="text-[#1d9bf0] w-[18px] h-[18px]" data-lucide="image"></i>
+                  <i class="text-[#1d9bf0] w-[18px] h-[18px]" data-lucide="images"></i>
+                  <i class="text-[#1d9bf0] w-[18px] h-[18px]" data-lucide="layout-list"></i>
+                  <i class="text-[#1d9bf0] w-[18px] h-[18px]" data-lucide="smile"></i>
+                  <i class="text-[#1d9bf0] w-[18px] h-[18px]" data-lucide="calendar-clock"></i>
+                  <i class="text-[#1d9bf0] w-[18px] h-[18px]" data-lucide="map-pin"></i>
                 </div>
                 <div>
                   <button class="bg-[#1d9bf0] py-[6px] px-5 font-semibold rounded-full" type="submit">Post</button>
@@ -148,119 +160,213 @@
             </div>
           </div>
         </div>
+        <!-- Write Tweet Input Box Section -->
 
-        <div class="show-posts flex justify-center p-3 border-b border-[#2f3336] items-center">
+        <!-- Show More  Post Section -->
+        <div class="show-posts cursor-pointer flex justify-center p-3 border-b border-[#2f3336] items-center">
           <h1 class="text-[#1d9bf0]">
             Show 500 Post
           </h1>
         </div>
+        <!-- Show More  Post Section -->
 
+        <!-- Posts Section -->
         <div class="post-section">
-          <div class="post flex">
-            <div class="profile-picture">
-              <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
+          <div class="post1 flex p-4 border-b border-[#2f3336]">
+            <div class="cursor-pointer profile-picture w-14">
+              <img class="w-10 h-10 rounded-sm"
+                src="https://pbs.twimg.com/profile_images/1750707808302190592/FpVvhxLh_400x400.jpg" alt="Profile Photo">
             </div>
-            <div class="profile-content">
-              <div class="flex">
-                <h1>Piyush Goyal @PiyushGoyal · 19s</h1>
-                <i data-lucide="more-horizontal"></i>
+            <div class="w-full profile-content ">
+              <div class="flex items-center justify-between">
+                <h1 class="font-medium">
+                  <span class="hover:underline hover:cursor-pointer">Xiaomi India</span> <span
+                    class="text-[#71767b] font-normal">
+                    @XiaomiIndia
+                    ·
+                    Feb 26</span>
+                </h1>
+                <i class="text-[#71767b] cursor-pointer w-[18px] box-content p-2 h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 rounded-full"
+                  data-lucide="more-horizontal"></i>
               </div>
-              <div class="tweet">
-                आज हम जो करते हैं वो Best और Biggest करते हैं।
+              <div class="flex flex-col items-center justify-center gap-4 tweet ">
+                <div>
+                  <h1>Humans are the core of our technology. <span class="text-[#1d9bf0]">#XiaomiHyperOS</span> is
+                    designed and tailored to connect personal
+                    devices, cars and smart home products in a smart ecosystem.
+                    <br>
+                    <br>
+                    Launching on 29th Feb at 12 noon!
+                  </h1>
+                </div>
+                <div class="cursor-pointer">
+                  <img class="aspect-square border border-[#2f3336] h-[500px] w-[500px] rounded-2xl"
+                    src="https://pbs.twimg.com/media/GHQMsFYXYAAOYOI?format=jpg&name=medium" alt="Post 1">
+                </div>
               </div>
-              <div class="tweet-reactions flex">
-                <i data-lucide="message-square"></i>
-                <i data-lucide="repeat-2"></i>
-                <i data-lucide="heart"></i>
-                <i data-lucide="bar-chart-2"></i>
-                <i data-lucide="bookmark"></i>
-                <i data-lucide="upload"></i>
+              <div class="w-full tweet-reactions">
+                <ul class="flex justify-between p-3 pb-0 items-center text-[#71767b]">
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="message-square"></i> <span
+                      class="text-[#71767b] text-sm hover:text-[#1d9bf0]">51</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#04b779] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="repeat-2"></i> <span class="text-[#71767b] text-sm hover:text-[#04b779]">134</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-1 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#f91880] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="heart"></i> <span class="text-[#71767b] text-sm hover:text-[#f91880]">1.1K</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="bar-chart-2"></i> <span
+                      class="text-[#71767b] text-sm hover:text-[#1d9bf0]">612</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="bookmark"></i>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="upload"></i>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-
+        <!-- Posts Section -->
       </div>
 
+      <!-- Third section -->
       <div class="third w-[31%] flex justify-center">
         <div class="w-[85%] flex flex-col gap-4">
-
-          <div class="search py-1 relative">
+          <!-- Search Bar -->
+          <div class="relative py-1 search">
             <i data-lucide="search" class="absolute top-3 start-5 w-5 text-[#71767b]"></i>
             <label for="search" aria-disabled="true"></label>
             <input class="rounded-full outline-none ps-12 bg-[#16181c] py-2 w-full text-white" type="text" name="search"
               id="search" placeholder="Search">
           </div>
+          <!-- Search Bar -->
 
+          <!-- Subscribe to Premium Section -->
           <div class="subscribe rounded-2xl p-4 bg-[#16181c] space-y-2">
             <h1 class="text-xl font-bold">Subscribe to Premium</h1>
             <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
             <button class="bg-[#1d9bf0] py-2 px-5 font-semibold rounded-full" type="submit">Subscribe</button>
           </div>
+          <!-- Subscribe to Premium Section -->
 
+          <!-- What's Happening Section -->
           <div class="whats-happening rounded-2xl py-4 bg-[#16181c]">
-            <h1 class="font-bold text-xl px-4">What's happening</h1>
-            <div class="trending-items cursor-pointer hover:bg-neutral-800 py-2 px-4">
+            <h1 class="px-4 text-xl font-bold">What's happening</h1>
+            <div class="px-4 py-2 cursor-pointer trending-items hover:bg-neutral-800">
               <p class="text-neutral-300">Trending in India</p>
-              <p class="text-lg">#jeetegaINDIA</p>
+              <p class="font-semibold text-md">#jeetegaINDIA</p>
               <p class="text-neutral-300">7,5554 posts</p>
             </div>
-            <div class="trending-items cursor-pointer hover:bg-neutral-800 py-2 px-4">
+            <div class="px-4 py-2 cursor-pointer trending-items hover:bg-neutral-800">
               <p class="text-neutral-300">Politics Trending</p>
-              <p class="text-lg">Dhru Rathee</p>
+              <p class="font-semibold text-md">Dhru Rathee</p>
               <p class="text-neutral-300">5K posts</p>
             </div>
-            <div class="trending-items cursor-pointer hover:bg-neutral-800 py-2 px-4">
+            <div class="px-4 py-2 cursor-pointer trending-items hover:bg-neutral-800">
               <p class="text-neutral-300">Politics Trending</p>
-              <p class="text-lg">Germany</p>
-              <p class="text-neutral-300">7,5554 posts</p>
+              <p class="font-semibold text-md">Germany</p>
+              <p class="text-neutral-300">4,2324 posts</p>
             </div>
-            <div class="trending-items cursor-pointer hover:bg-neutral-800 py-2 px-4">
-              <p class="text-neutral-300">Trending in India</p>
-              <p class="text-lg">#jeetegaINDIA</p>
-              <p class="text-neutral-300">7,5554 posts</p>
+            <div class="px-4 py-2 cursor-pointer trending-items hover:bg-neutral-800">
+              <p class="text-neutral-300">Technology Trending</p>
+              <p class="font-semibold text-md">#reactjs</p>
+              <p class="text-neutral-300">754K posts</p>
             </div>
             <div class="px-4">
               <button class="text-[#1d9bf0]" type="button">Show more</button>
             </div>
           </div>
+          <!-- What's Happening Section -->
 
+          <!-- Who to Follow Section -->
           <div class="who-to-follow rounded-2xl py-4 bg-[#16181c]">
-            <h1 class="font-bold text-xl px-4">Who to follow</h1>
+            <h1 class="px-4 text-xl font-bold">Who to follow</h1>
             <div
-              class="follow-profile1 cursor-pointer flex flex-row justify-start items-center gap-[17px] hover:bg-neutral-800 py-2 px-4">
-              <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
-              <div>
-                <h1 class="text-lg">Abhishek Jaiswar</h1>
-                <p class="text-sm">@devabhishek_jai</p>
+              class="follow-profile1 cursor-pointer flex flex-row justify-between items-center gap-[17px] hover:bg-neutral-800 py-2 px-4">
+              <div class="flex gap-4">
+                <img class="w-10 h-10 rounded-full"
+                  src="https://pbs.twimg.com/profile_images/1219500659159887872/fjVfk1_X_400x400.jpg"
+                  alt="Profile Photo">
+                <div>
+                  <h1 class="text-md">POCO India Support</h1>
+                  <p class="text-sm">@POCOSupport</p>
+                </div>
               </div>
-              <button class="bg-white text-black font-medium py-1 px-4 rounded-full" type="submit">Follow</button>
+              <div>
+                <button class="px-4 py-1 font-medium text-black bg-white rounded-full" type="submit">Follow</button>
+              </div>
             </div>
             <div
-              class="follow-profile1 cursor-pointer flex flex-row justify-start items-center gap-[17px] hover:bg-neutral-800 py-2 px-4">
-              <img class="rounded-full w-10 h-10" src="./assets/profilephoto.png" alt="Profile Photo">
-              <div>
-                <h1 class="text-lg">Abhishek Jaiswar</h1>
-                <p class="text-sm">@devabhishek_jai</p>
+              class="follow-profile2 cursor-pointer flex flex-row justify-between items-center gap-[17px] hover:bg-neutral-800 py-2 px-4">
+              <div class="flex gap-4">
+                <img class="w-10 h-10 rounded-full"
+                  src="https://pbs.twimg.com/profile_images/1267713887165485061/WUR4QXtd_400x400.jpg"
+                  alt="Profile Photo">
+                <div>
+                  <h1 class="text-md">Flipkart</h1>
+                  <p class="text-sm">@Flipkart</p>
+                </div>
               </div>
-              <button class="bg-white text-black font-medium py-1 px-4 rounded-full" type="submit">Follow</button>
+              <div>
+                <button class="px-4 py-1 font-medium text-black bg-white rounded-full" type="submit">Follow</button>
+              </div>
+            </div>
+
+            <div
+              class="follow-profile3 cursor-pointer flex flex-row justify-between items-center gap-[17px] hover:bg-neutral-800 py-2 px-4">
+              <div class="flex gap-4">
+                <img class="w-10 h-10 rounded-full"
+                  src="https://pbs.twimg.com/profile_images/1551879008505442304/NEgchdmB_400x400.jpg"
+                  alt="Profile Photo">
+                <div>
+                  <h1 class="text-md">Redmi India</h1>
+                  <p class="text-sm">@RedmiIndia</p>
+                </div>
+              </div>
+              <div>
+                <button class="px-4 py-1 font-medium text-black bg-white rounded-full" type="submit">Follow</button>
+              </div>
             </div>
             <div class="px-4">
               <button class="text-[#1d9bf0]" type="button">Show more</button>
             </div>
           </div>
-
+          <!-- Who to Follow Section -->
+          <!-- Last Section -->
+          <div class="px-4">
+            <ul class="flex text-sm text-[#71767b] flex-wrap gap-2 cursor-pointer">
+              <li>Terms of Service</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+              <li>Accessibility</li>
+              <li>Ads info</li>
+              <li>More...</li>
+              <li>© 2024 X Corp.</li>
+            </ul>
+          </div>
+          <!-- Last Section -->
         </div>
       </div>
     </div>
   </div>
 
-  <!-- <script src="./scripts/main.js"></script> -->
-  <!-- Lucide Icons Production version -->
+  <!-- Lucide Icons Production Version Script -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     lucide.createIcons();
   </script>
+  <!-- Lucide Icons Production Version Script -->
 
 </body>
 
