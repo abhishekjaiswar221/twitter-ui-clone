@@ -38,7 +38,7 @@
                 <li
                   class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
                   <i class="h-[27px] w-[27px]" data-lucide="home"></i>
-                  <span class="hidden 2xl:block">Home</span>
+                  <span class="hidden xl:block">Home</span>
                 </li>
                 <li
                   class="flex items-center justify-start gap-5 p-2 w-fit hover:bg-neutral-900 hover:rounded-full hover:cursor-pointer">
@@ -114,7 +114,7 @@
 
             <!-- User Profile Details -->
             <div
-              class="users-profile flex flex-row justify-start items-center gap-[17px] cursor-pointer hover:bg-neutral-900 hover:rounded-full mx-auto lg:p-[10px] mt-6">
+              class="users-profile flex flex-row justify-start items-center gap-[17px] cursor-pointer hover:bg-neutral-900 hover:rounded-full mx-auto lg:p-[8px] mt-6">
               <img class="w-10 h-10 rounded-full" src="./assets/profilephoto.png" alt="Profile Photo">
               <div class="hidden xl:block">
                 <h1 class="text-lg">Abhishek</h1>
@@ -159,12 +159,14 @@
             <div class="flex items-center justify-center w-full">
               <h1>Following</h1>
             </div>
-            <div class="w-14 h-1 bg-[#1d9bf0] rounded-full absolute bottom-0 left-20"></div>
+            <div class="w-14 h-1 bg-[#1d9bf0] rounded-full absolute bottom-0 left-16"></div>
           </div>
         </div>
         <div class="hidden md:block">
           <div class="top-header flex items-center h-14 border-b border-[#2f3336] relative">
-            <div class="bg-[#1d9bf0] h-1 w-14 rounded-full absolute bottom-0 left-[105px]"></div>
+            <div
+              class="bg-[#1d9bf0] h-1 w-14 rounded-full absolute bottom-0 md:left-32 lg:left-[103px] xl:left-[110px]">
+            </div>
             <div class="flex justify-center w-1/2 cursor-pointer for-you">
               <h1>For You</h1>
             </div>
@@ -299,38 +301,179 @@
             </div>
           </div>
         </div>
+
         <div class="pb-12 post-section">
-          <div class="post1 flex p-4 border-b border-[#2f3336]">
+          <div class="post2 flex p-4 border-b border-[#2f3336]">
             <div class="w-12 cursor-pointer profile-picture md:w-14">
-              <img class="w-8 h-8 rounded-sm md:w-10 md:h-10"
-                src="https://pbs.twimg.com/profile_images/1750707808302190592/FpVvhxLh_400x400.jpg" alt="Profile Photo">
+              <img class="w-8 h-8 rounded-full md:w-10 md:h-10"
+                src="https://pbs.twimg.com/profile_images/817977303242133505/jSSyMKvf_400x400.jpg" alt="Profile Photo">
             </div>
             <div class="w-[300px] md:w-full profile-content">
               <div class="flex items-center justify-between">
                 <h1 class="font-normal md:font-medium">
-                  <span class="hover:underline hover:cursor-pointer">Xiaomi India</span> <span
+                  <span class="hover:underline hover:cursor-pointer">ANI Digital</span> <span
                     class="text-[#71767b] font-normal">
-                    @XiaomiIndia
+                    @ani_digital
                     ·
-                    Feb 26</span>
+                    13m</span>
                 </h1>
                 <i class="text-[#71767b] cursor-pointer w-[18px] box-content p-2 h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 rounded-full"
                   data-lucide="more-horizontal"></i>
               </div>
               <div class="flex flex-col justify-center gap-4 iatems-center tweet ">
                 <div>
-                  <h1>Humans are the core of our technology. <span class="text-[#1d9bf0]">#XiaomiHyperOS</span> is
-                    designed and tailored to connect personal
-                    devices, cars and smart home products in a smart ecosystem.
-                    <br>
-                    <br>
-                    Launching on 29th Feb at 12 noon!
+                  <h1>Jaishankar commends former Japanese PM Suga's leadership in strengthening India-Japan ties.
                   </h1>
                 </div>
                 <div class="cursor-pointer">
                   <img
-                    class="aspect-square border border-[#2f3336] h-[300px] w-[350px] md:h-[500px] md:w-[500px] rounded-2xl"
-                    src="https://pbs.twimg.com/media/GHQMsFYXYAAOYOI?format=jpg&name=medium" alt="Post 1">
+                    class="aspect-square border border-[#2f3336] h-[300px] w-[350px] md:h-[400px] md:w-[500px] rounded-2xl"
+                    src="https://pbs.twimg.com/media/GIKRw0CWUAA5kcF?format=png&name=small" alt="Post 2">
+                </div>
+              </div>
+              <div class="w-full tweet-reactions">
+                <ul class="flex justify-between p-3 pb-0 items-center text-[#71767b]">
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="message-square"></i> <span
+                      class="text-[#71767b] text-sm hover:text-[#1d9bf0]">51</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#04b779] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="repeat-2"></i> <span class="text-[#71767b] text-sm hover:text-[#04b779]">1.5K</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-1 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#f91880] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="heart"></i> <span class="text-[#71767b] text-sm hover:text-[#f91880]">2K</span>
+                  </li>
+                  <div class="hidden md:block">
+                    <li class="flex items-center justify-center gap-2 cursor-pointer">
+                      <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                        data-lucide="bar-chart-2"></i> <span
+                        class="text-[#71767b] text-sm hover:text-[#1d9bf0]">232</span>
+                    </li>
+                  </div>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="bookmark"></i>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="upload"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pb-12 post-section">
+          <div class="post3 flex p-4 border-b border-[#2f3336]">
+            <div class="w-12 cursor-pointer profile-picture md:w-14">
+              <img class="w-8 h-8 rounded-sm md:w-10 md:h-10"
+                src="https://pbs.twimg.com/profile_images/1725418402729402368/n2K1etZc_400x400.jpg" alt="Profile Photo">
+            </div>
+            <div class="w-[300px] md:w-full profile-content">
+              <div class="flex items-center justify-between">
+                <h1 class="font-normal md:font-medium">
+                  <span class="hover:underline hover:cursor-pointer">Ministry of Education</span> <span
+                    class="text-[#71767b] font-normal">
+                    @EduMinOfIndia
+                    ·
+                    Mar 8</span>
+                </h1>
+                <i class="text-[#71767b] cursor-pointer w-[18px] box-content p-2 h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 rounded-full"
+                  data-lucide="more-horizontal"></i>
+              </div>
+              <div class="flex flex-col justify-center gap-4 iatems-center tweet ">
+                <div>
+                  <h1>The Department of School Education, Govt of India welcomes the signing of MoU for implementation
+                    of PM SHRI in Bihar. It shows the commitment of Bihar to implement NEP 2020 and develop exemplar PM
+                    SHRI Schools to show case all initiatives of NEP 2020. It will ensure transformative educational
+                    opportunities for all students, prioritizing their well-being and advancement in Bihar.
+                    <span class="text-[#1d9bf0]">#PMSHRIScheme</span>
+                    <span class="text-[#1d9bf0]">#PMSHRISchools</span>
+                    <span class="text-[#1d9bf0]">#PMSHRIBihar</span>
+                    <span class="text-[#1d9bf0]">#NEP2020</span>
+                    <span class="text-[#1d9bf0]">#BiharEducation</span>
+
+                    <br><br>
+                    <span class="text-[#1d9bf0]">@PMOIndia</span>
+                    <span class="text-[#1d9bf0]">@narendramodi</span>
+                    <span class="text-[#1d9bf0]">@dpradhanbjp</span>
+                    <span class="text-[#1d9bf0]">@PIBHRD</span>
+                    <span class="text-[#1d9bf0]">@sanjayjavin</span>
+                    <span class="text-[#1d9bf0]">@PIB_India</span>
+                    <span class="text-[#1d9bf0]">@DDNewslive</span>
+                    <span class="text-[#1d9bf0]">@airnewsalerts</span>
+                  </h1>
+                </div>
+              </div>
+              <div class="w-full tweet-reactions">
+                <ul class="flex justify-between p-3 pb-0 items-center text-[#71767b]">
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="message-square"></i> <span
+                      class="text-[#71767b] text-sm hover:text-[#1d9bf0]">3</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#04b779] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="repeat-2"></i> <span class="text-[#71767b] text-sm hover:text-[#04b779]">1.4K</span>
+                  </li>
+                  <li class="flex items-center justify-center gap-1 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#f91880] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="heart"></i> <span class="text-[#71767b] text-sm hover:text-[#f91880]">2.6K</span>
+                  </li>
+                  <div class="hidden md:block">
+                    <li class="flex items-center justify-center gap-2 cursor-pointer">
+                      <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                        data-lucide="bar-chart-2"></i> <span
+                        class="text-[#71767b] text-sm hover:text-[#1d9bf0]">2K</span>
+                    </li>
+                  </div>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="bookmark"></i>
+                  </li>
+                  <li class="flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
+                      data-lucide="upload"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pb-12 post-section">
+          <div class="post4 flex p-4 border-b border-[#2f3336]">
+            <div class="w-12 cursor-pointer profile-picture md:w-14">
+              <img class="w-8 h-8 rounded-full md:w-10 md:h-10"
+                src="https://pbs.twimg.com/profile_images/1061900452311121920/jo7qrMTA_400x400.jpg" alt="Profile Photo">
+            </div>
+            <div class="w-[300px] md:w-full profile-content">
+              <div class="flex items-center justify-between">
+                <h1 class="font-normal md:font-medium">
+                  <span class="hover:underline hover:cursor-pointer">The Hindu</span> <span
+                    class="text-[#71767b] font-normal">
+                    @the_hindu
+                    ·
+                    30m</span>
+                </h1>
+                <i class="text-[#71767b] cursor-pointer w-[18px] box-content p-2 h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 rounded-full"
+                  data-lucide="more-horizontal"></i>
+              </div>
+              <div class="flex flex-col justify-center gap-4 iatems-center tweet ">
+                <div>
+                  <h1>
+                    External Affairs Minister <span class="text-[#1d9bf0]">#SJaishankar</span> on March called on
+                    Japanese Prime Minister <span class="text-[#1d9bf0]">#FumioKishida</span> and apprised him of the
+                    progress made by the two countries in the just-concluded Foreign Ministers Strategic Dialogue.
+                  </h1>
+                </div>
+                <div class="cursor-pointer">
+                  <img
+                    class="aspect-square border border-[#2f3336] h-[200px] w-[350px] md:h-[300px] md:w-[500px] rounded-2xl"
+                    src="https://pbs.twimg.com/card_img/1766131976380055552/nti-WHZk?format=jpg&name=medium"
+                    alt="Post 4">
                 </div>
               </div>
               <div class="w-full tweet-reactions">
@@ -369,37 +512,36 @@
           </div>
         </div>
         <div class="pb-12 post-section">
-          <div class="post1 flex p-4 border-b border-[#2f3336]">
+          <div class="post5 flex p-4 border-b border-[#2f3336]">
             <div class="w-12 cursor-pointer profile-picture md:w-14">
               <img class="w-8 h-8 rounded-sm md:w-10 md:h-10"
-                src="https://pbs.twimg.com/profile_images/1750707808302190592/FpVvhxLh_400x400.jpg" alt="Profile Photo">
+                src="https://pbs.twimg.com/profile_images/1700051019525488640/VRqy0bTE_400x400.jpg" alt="Profile Photo">
             </div>
             <div class="w-[300px] md:w-full profile-content">
               <div class="flex items-center justify-between">
                 <h1 class="font-normal md:font-medium">
-                  <span class="hover:underline hover:cursor-pointer">Xiaomi India</span> <span
+                  <span class="hover:underline hover:cursor-pointer">Narendra Modi</span> <span
                     class="text-[#71767b] font-normal">
-                    @XiaomiIndia
+                    @narendramodi
                     ·
-                    Feb 26</span>
+                    Mar 8</span>
                 </h1>
                 <i class="text-[#71767b] cursor-pointer w-[18px] box-content p-2 h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 rounded-full"
                   data-lucide="more-horizontal"></i>
               </div>
               <div class="flex flex-col justify-center gap-4 iatems-center tweet ">
                 <div>
-                  <h1>Humans are the core of our technology. <span class="text-[#1d9bf0]">#XiaomiHyperOS</span> is
-                    designed and tailored to connect personal
-                    devices, cars and smart home products in a smart ecosystem.
-                    <br>
-                    <br>
-                    Launching on 29th Feb at 12 noon!
+                  <h1>I would also like to congratulate all those who took part in the entire process in the run-up to
+                    the National Creators Awards. These Awards are going to emerge as a prestigious and effective way of
+                    encouraging talent. I do urge all content creators to keep working hard and creatively, and keep
+                    making us all proud!
                   </h1>
                 </div>
                 <div class="cursor-pointer">
                   <img
-                    class="aspect-square border border-[#2f3336] h-[300px] w-[350px] md:h-[500px] md:w-[500px] rounded-2xl"
-                    src="https://pbs.twimg.com/media/GHQMsFYXYAAOYOI?format=jpg&name=medium" alt="Post 1">
+                    class="aspect-square border border-[#2f3336] h-[200px] w-[350px] md:h-[280px] md:w-[500px] rounded-2xl"
+                    src="https://pbs.twimg.com/card_img/1765950218640490496/C8Ww9gAw?format=jpg&name=medium"
+                    alt="Post 5">
                 </div>
               </div>
               <div class="w-full tweet-reactions">
@@ -407,90 +549,21 @@
                   <li class="flex items-center justify-center gap-2 cursor-pointer">
                     <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
                       data-lucide="message-square"></i> <span
-                      class="text-[#71767b] text-sm hover:text-[#1d9bf0]">51</span>
+                      class="text-[#71767b] text-sm hover:text-[#1d9bf0]">498</span>
                   </li>
                   <li class="flex items-center justify-center gap-2 cursor-pointer">
                     <i class="w-[18px] h-[18px] hover:text-[#04b779] hover:bg-slate-900 p-2 box-content rounded-full"
-                      data-lucide="repeat-2"></i> <span class="text-[#71767b] text-sm hover:text-[#04b779]">134</span>
+                      data-lucide="repeat-2"></i> <span class="text-[#71767b] text-sm hover:text-[#04b779]">2.4K</span>
                   </li>
                   <li class="flex items-center justify-center gap-1 cursor-pointer">
                     <i class="w-[18px] h-[18px] hover:text-[#f91880] hover:bg-slate-900 p-2 box-content rounded-full"
-                      data-lucide="heart"></i> <span class="text-[#71767b] text-sm hover:text-[#f91880]">1.1K</span>
+                      data-lucide="heart"></i> <span class="text-[#71767b] text-sm hover:text-[#f91880]">17K</span>
                   </li>
                   <div class="hidden md:block">
                     <li class="flex items-center justify-center gap-2 cursor-pointer">
                       <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
                         data-lucide="bar-chart-2"></i> <span
-                        class="text-[#71767b] text-sm hover:text-[#1d9bf0]">612</span>
-                    </li>
-                  </div>
-                  <li class="flex items-center justify-center gap-2 cursor-pointer">
-                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
-                      data-lucide="bookmark"></i>
-                  </li>
-                  <li class="flex items-center justify-center gap-2 cursor-pointer">
-                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
-                      data-lucide="upload"></i>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="pb-12 post-section">
-          <div class="post1 flex p-4 border-b border-[#2f3336]">
-            <div class="w-12 cursor-pointer profile-picture md:w-14">
-              <img class="w-8 h-8 rounded-sm md:w-10 md:h-10"
-                src="https://pbs.twimg.com/profile_images/1750707808302190592/FpVvhxLh_400x400.jpg" alt="Profile Photo">
-            </div>
-            <div class="w-[300px] md:w-full profile-content">
-              <div class="flex items-center justify-between">
-                <h1 class="font-normal md:font-medium">
-                  <span class="hover:underline hover:cursor-pointer">Xiaomi India</span> <span
-                    class="text-[#71767b] font-normal">
-                    @XiaomiIndia
-                    ·
-                    Feb 26</span>
-                </h1>
-                <i class="text-[#71767b] cursor-pointer w-[18px] box-content p-2 h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 rounded-full"
-                  data-lucide="more-horizontal"></i>
-              </div>
-              <div class="flex flex-col justify-center gap-4 iatems-center tweet ">
-                <div>
-                  <h1>Humans are the core of our technology. <span class="text-[#1d9bf0]">#XiaomiHyperOS</span> is
-                    designed and tailored to connect personal
-                    devices, cars and smart home products in a smart ecosystem.
-                    <br>
-                    <br>
-                    Launching on 29th Feb at 12 noon!
-                  </h1>
-                </div>
-                <div class="cursor-pointer">
-                  <img
-                    class="aspect-square border border-[#2f3336] h-[300px] w-[350px] md:h-[500px] md:w-[500px] rounded-2xl"
-                    src="https://pbs.twimg.com/media/GHQMsFYXYAAOYOI?format=jpg&name=medium" alt="Post 1">
-                </div>
-              </div>
-              <div class="w-full tweet-reactions">
-                <ul class="flex justify-between p-3 pb-0 items-center text-[#71767b]">
-                  <li class="flex items-center justify-center gap-2 cursor-pointer">
-                    <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
-                      data-lucide="message-square"></i> <span
-                      class="text-[#71767b] text-sm hover:text-[#1d9bf0]">51</span>
-                  </li>
-                  <li class="flex items-center justify-center gap-2 cursor-pointer">
-                    <i class="w-[18px] h-[18px] hover:text-[#04b779] hover:bg-slate-900 p-2 box-content rounded-full"
-                      data-lucide="repeat-2"></i> <span class="text-[#71767b] text-sm hover:text-[#04b779]">134</span>
-                  </li>
-                  <li class="flex items-center justify-center gap-1 cursor-pointer">
-                    <i class="w-[18px] h-[18px] hover:text-[#f91880] hover:bg-slate-900 p-2 box-content rounded-full"
-                      data-lucide="heart"></i> <span class="text-[#71767b] text-sm hover:text-[#f91880]">1.1K</span>
-                  </li>
-                  <div class="hidden md:block">
-                    <li class="flex items-center justify-center gap-2 cursor-pointer">
-                      <i class="w-[18px] h-[18px] hover:text-[#1d9bf0] hover:bg-slate-900 p-2 box-content rounded-full"
-                        data-lucide="bar-chart-2"></i> <span
-                        class="text-[#71767b] text-sm hover:text-[#1d9bf0]">612</span>
+                        class="text-[#71767b] text-sm hover:text-[#1d9bf0]">76</span>
                     </li>
                   </div>
                   <li class="flex items-center justify-center gap-2 cursor-pointer">
@@ -581,7 +654,7 @@
                 <p class="text-neutral-300">754K posts</p>
               </div>
               <div class="px-4">
-                <button class="text-[#1d9bf0]" type="button">Show more</button>
+                <button class="text-[#1d9bf0] hover:underline" type="button">Show more</button>
               </div>
             </div>
             <!-- What's Happening Section -->
@@ -636,7 +709,7 @@
                 </div>
               </div>
               <div class="px-4">
-                <button class="text-[#1d9bf0]" type="button">Show more</button>
+                <button class="text-[#1d9bf0] hover:underline" type="button">Show more</button>
               </div>
             </div>
             <!-- Who to Follow Section -->
